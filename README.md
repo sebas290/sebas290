@@ -42,19 +42,19 @@ Soy desarrollador apasionado por la tecnología, el código limpio y los proyect
 <p align="center">
 
 <div align="center" class="icons-social" style="margin-top: 10px;">
-  <a style="margin: 0 10px;" target="_blank" href="https://www.linkedin.com/in/tuusuario/">
+  <a style="margin: 0 10px;" target="_blank" href="https://www.linkedin.com/in/sebastian-soria-gonzalez-6932342b9/">
     <img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png" alt="LinkedIn"/>
   </a>
-  <a style="margin: 0 10px;" target="_blank" href="https://github.com/tu-usuario">
+  <a style="margin: 0 10px;" target="_blank" href="https://github.com/sebas290">
     <img src="https://img.icons8.com/doodle/40/000000/github--v1.png" alt="GitHub"/>
   </a>
-  <a style="margin: 0 10px;" target="_blank" href="https://instagram.com/tuusuario">
+  <a style="margin: 0 10px;" target="_blank" href="https://instagram.com/sebastian_sg_29">
     <img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png" alt="Instagram"/>
   </a>
-  <a style="margin: 0 10px;" target="_blank" href="mailto:tuemail@correo.com">
+  <a style="margin: 0 10px;" target="_blank" href="mailto:sebas.soria290@gmail.com">
     <img src="https://img.icons8.com/doodle/40/000000/apple-mail.png" alt="Correo"/>
   </a>
-  <a style="margin: 0 10px;" target="_blank" href="https://discord.com/users/TuDiscordID">
+  <a style="margin: 0 10px;" target="_blank" href="https://discord.com/users/923404177835712512">
     <img src="https://img.icons8.com/doodle/40/000000/discord-logo.png" alt="Discord"/>
   </a>
 </div>
