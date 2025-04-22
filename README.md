@@ -7,15 +7,17 @@ Soy desarrollador apasionado por la tecnología, el código limpio y los proyect
 
 ## 🚀 Tecnologías y Herramientas
 
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
 ![Node.js](https://img.shields.io/badge/-Node.js-black?style=flat-square&logo=node.js)
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-black?style=flat-square&logo=mongodb)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 ![Linux](https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux)
 ![Terraform](https://img.shields.io/badge/-Terraform-623CE4?style=flat-square&logo=terraform&logoColor=white)
 ![Amazon AWS](https://img.shields.io/badge/-Amazon%20AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-
 
 ---
 
@@ -33,7 +35,7 @@ Soy desarrollador apasionado por la tecnología, el código limpio y los proyect
 <br/>
 
 <p align="center">
-  <img width="95%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sebas290&layout=compact&theme=gruvbox&hide_border=true" />
+  <img width="65%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sebas290&layout=compact&theme=gruvbox&hide_border=true" />
 </p>
 
 ---
