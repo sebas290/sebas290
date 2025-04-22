@@ -1,34 +1,40 @@
-name: Update GitHub Stats
+name: Update README Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Esto corre todos los días a medianoche
+    - cron: '0 0 * * *'  # Corre todos los días a medianoche UTC
   push:
     branches:
       - main
 
 jobs:
-  build:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Generate README
+      - name: Update README
         run: |
-          echo "## My Statistics" > README.md
+          echo "Actualizando estadísticas... (puedes personalizar esto)" > README.md
+          echo "# ¡Hola! 👋 Soy [Sebastian]" >> README.md
           echo "" >> README.md
-          echo '<p align="left">' >> README.md
-          echo '  <a href="https://github.com/sebas290">' >> README.md
-          echo '    <img width="49.5%" src="https://github-readme-stats.vercel.app/api?username=tu-usuario&show_icons=true&theme=gruvbox&hide_border=true" />' >> README.md
-          echo '    <img width="49.5%" src="https://github-readme-streak-stats.herokuapp.com/?user=tu-usuario&theme=gruvbox&hide_border=true" />' >> README.md
-          echo '  </a>' >> README.md
-          echo '</p>' >> README.md
+          echo "## 📊 Mis estadísticas" >> README.md
+          echo "<p align=\"left\">" >> README.md
+          echo "  <a href=\"https://github.com/sebas290\">" >> README.md
+          echo "    <img width=\"49.5%\" src=\"https://github-readme-stats.vercel.app/api?username=sebas290&show_icons=true&theme=gruvbox&hide_border=true\" />" >> README.md
+          echo "    <img width=\"49.5%\" src=\"https://github-readme-streak-stats.herokuapp.com/?user=sebas290&theme=gruvbox&hide_border=true\" />" >> README.md
+          echo "  </a>" >> README.md
+          echo "</p>" >> README.md
+          echo "" >> README.md
+          echo "<p align=\"center\">" >> README.md
+          echo "  <img width=\"95%\" src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=sebas290&layout=compact&theme=gruvbox&hide_border=true\" />" >> README.md
+          echo "</p>" >> README.md
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
-          git config user.name 'github-actions'
-          git config user.email 'github-actions@github.com'
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
           git add README.md
-          git commit -m "📊 Update README stats"
+          git commit -m "📈 Actualización diaria de estadísticas"
           git push
